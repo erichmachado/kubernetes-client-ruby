@@ -1,9 +1,20 @@
 # Kubernetes::V2beta2PodsMetricSource
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**metric** | [**V2beta2MetricIdentifier**](V2beta2MetricIdentifier.md) | metric identifies the target metric by name and selector | 
-**target** | [**V2beta2MetricTarget**](V2beta2MetricTarget.md) | target specifies the target value for the given metric | 
 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **metric** | [**V2beta2MetricIdentifier**](V2beta2MetricIdentifier.md) |  |  |
+| **target** | [**V2beta2MetricTarget**](V2beta2MetricTarget.md) |  |  |
+
+## Example
+
+```ruby
+require 'kubernetes-io'
+
+instance = Kubernetes::V2beta2PodsMetricSource.new(
+  metric: null,
+  target: null
+)
+```
 
