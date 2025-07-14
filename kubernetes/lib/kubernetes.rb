@@ -15,6 +15,13 @@ require 'kubernetes/api_client'
 require 'kubernetes/api_error'
 require 'kubernetes/version'
 require 'kubernetes/configuration'
+require 'kubernetes/loader'
+require 'kubernetes/watch'
+
+# Configuration
+require 'kubernetes/config/error'
+require 'kubernetes/config/incluster_config'
+require 'kubernetes/config/kube_config'
 
 # Models
 require 'kubernetes/models/admissionregistration_v1_service_reference'
